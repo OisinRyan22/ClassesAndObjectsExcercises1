@@ -16,6 +16,9 @@ public class ClassesAndObjectsExcercises1 {
     public static void main(String[] args) {
       System.out.println("Hello world");
       System.out.println("Hello class");
+      
+      Car car1 = new Car("Skoda", "Fabia", 4, "White");
+      car1.drive(90);
     }
     
 }
