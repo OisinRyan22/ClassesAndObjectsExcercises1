@@ -17,8 +17,13 @@ public class ClassesAndObjectsExcercises1 {
       System.out.println("Hello world");
       System.out.println("Hello class");
       
+
       Car car1 = new Car("Volkswagen", "Golf", 4, "Black");
       car1.drive("forward");
+
+      Car car2 = new Car("Skoda", "Fabia", 4, "White");
+      car2.drive(90);
+
     }
     
 }
